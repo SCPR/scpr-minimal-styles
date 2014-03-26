@@ -1,0 +1,3 @@
+echo "Deploying to kpcc@66.226.4.228:/home/kpcc/media-www/static/styles/scpr-minimal"
+ssh kpcc@66.226.4.228 'cd /home/kpcc/media-www/static/styles/scpr-minimal && git pull origin master && exit'
+echo "Finished."

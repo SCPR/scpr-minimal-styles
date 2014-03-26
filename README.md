@@ -7,14 +7,10 @@ This is hosted at http://media.scpr.org/static/styles/scpr-minimal/
 ### Deployment
 This repository is cloned on media. To deploy, you need your public key added to kpcc@media's public keys.
 
-Then, add the repo as a remote:
+Deploy with the deploy script:
 
 ```
-git remote add live kpcc@media:/home/kpcc/media-www/static/styles/scpr-minimal
+./deploy
 ```
 
-And deploy with:
-
-```
-git push live
-```
+Note that this pulls from github, so you'll need to push to github first.
